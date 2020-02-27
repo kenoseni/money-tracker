@@ -100,7 +100,7 @@ const update = (data) => {
             tip.hide()
             handleMouseOut(d, i, n)
         })
-        .on('click', handleClick)
+        .on('dblclick', handledoubleClick)
 } 
 
 // data array and firestore
@@ -181,7 +181,7 @@ const handleMouseOut = (d, i, n) => {
             .attr('fill', color(d.data.name))
 }
 
-const handleClick = (d) => {
+const handledoubleClick = (d) => {
     // get id
     const id = d.data.id
     // query the firestore document to delete the data
