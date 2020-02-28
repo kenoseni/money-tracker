@@ -3,7 +3,7 @@ Money tracker for the concerned
 
 ## Installation & Starting
 
-1. Install [**browser sync**] `npm install -g browser-sync` on your device
+1. Install **browser sync** `npm install -g browser-sync` on your device
 
 2. Clone the repository
 
